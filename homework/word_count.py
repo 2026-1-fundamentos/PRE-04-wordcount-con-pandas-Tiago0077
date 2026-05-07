@@ -1,5 +1,4 @@
 """Taller evaluable"""
-
 import glob
 import os
 
@@ -100,7 +99,7 @@ def run_job(input_directory, output_directory):
     create_marker(output_directory)
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
 
     run_job(
         "files/input",
